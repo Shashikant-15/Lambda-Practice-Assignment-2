@@ -11,10 +11,10 @@ public class MainReturnClass {
 
         // Enter Input to perform above Lambda Function
         System.out.println("\n Enter any integer value :");
-        double n = Double.parseDouble(scanner.next());
+        long n = (long) Double.parseDouble(scanner.next());
 
         // result show :
         System.out.println("\n Next Even Number of entered Value is :");
-        System.out.println(lambda.nextEven((long) n));
+        System.out.println(lambda.nextEven(n));
     }
 }
