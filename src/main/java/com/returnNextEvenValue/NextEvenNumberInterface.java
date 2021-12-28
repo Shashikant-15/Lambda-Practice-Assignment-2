@@ -1,6 +1,6 @@
 package com.returnNextEvenValue;
 
 @FunctionalInterface
-public interface ReturnValueInterface {
+public interface NextEvenNumberInterface {
     long nextEven(long n);
 }

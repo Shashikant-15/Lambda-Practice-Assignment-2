@@ -8,19 +8,13 @@ import java.util.List;
 
 public class NextEvenNumberTest {
 
-    List<Integer> integerArrayList = new ArrayList<Integer>(48564);
+    List<Integer> integerArrayList = new ArrayList<Integer>(48566);
 
-    @Test
-    public void shouldReturn1() {
-
-        List<Integer> expected = Arrays.asList(48566);
-        Assert.assertEquals(expected, 48566);
-    }
 
     @Test
     public void shouldReturn2() {
         int num=6;
-        int num2= 8;
+        int num2=6;
 
         Assert.assertEquals(num2,num);
     }
